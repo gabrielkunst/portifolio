@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio | Gabriel Kunst</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header class="header">
+      <!-- NAVBAR -->
+      <nav class="nav">
+        <div class="nav-name">
+          <span title="Bem vindo :) 🎉😁">Gabriel.</span>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#about">sobre</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#works">projetos</a></li>
+            <li><a href="#contact">contato</a></li>
+          </ul>
+        </div>
+        <div class="nav-links nav-hidden">
+          <ul id="closeNavHidden">
+            <li><a href="#">home</a></li>
+            <li><a href="#about">sobre</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#works">projetos</a></li>
+            <li><a href="#contact">contato</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars open-nav nav-button"></i>
+      </nav>
+      <!-- HERO -->
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Olá, eu sou o</h1>
+          <span>Gabriel Kunst</span>
+          <p>Desenvolvedor Front-End</p>
+          <div class="hero-actions">
+            <a class="hero-btn" href="./assets/curriculo.pdf" target="_blank"
+              >Dowload CV</a
+            >
+            <a
+              class="hero-btn"
+              href="mailto:gabrielkt.dev@gmail.com"
+              targe="_blank"
+              >Contato</a
+            >
+          </div>
+        </div>
+        <img
+          src="./assets/photo.jpg"
+          alt="Foto minha sentado nas pedras."
+          class="hero-image"
+        />
+      </div>
+      <!-- ARROW DOWN  -->
+      <i class="fa-solid fa-angles-down arrow-down"></i>
+    </header>
+    <!-- END OF HEADER -->
+    <!-- MAIN CONTENT ==> SECTIONS -->
+    <main class="main-content">
+      <!-- SECTION 1 ==> ABOUT -->
+
+      <section class="section about" id="about">
+        <div class="section-fade">
+          <h2 class="section-title">Sobre mim</h2>
+          <div class="about-content">
+            <p>
+              Sou um jovem entusiasta de tecnologia, especialmente no que diz
+              respeito ao desenvolvimento front-end. Desde que comecei a estudar
+              programação há 2 meses, não consegui me afastar desse universo
+              fascinante. O desafio de criar algo a partir do zero e ver seu
+              potencial se materializar é algo que me motiva a cada dia. Com meu
+              portfólio, quero compartilhar essa paixão e mostrar o quanto sou
+              apaixonado pelo desenvolvimento web. Espero poder fazer a
+              diferença e contribuir para essa área incrível de alguma forma.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF SECTION 1 -->
+      <!-- SECTION 2 ==> SKILLS -->
+
+      <section class="section skills" id="skills">
+        <div class="section-fade">
+          <h2 class="section-title">Skills</h2>
+          <div class="section-cards section-content">
+            <article class="section-card skills-card" id="skillHTML">
+              <i class="fa-brands fa-html5"></i>
+              <h3>HTML</h3>
+            </article>
+            <article class="section-card skills-card" id="skillCSS">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </article>
+            <article class="section-card skills-card" id="skillJS">
+              <i class="fa-brands fa-js"></i>
+              <h3>JS</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF SECTION 2 -->
+      <!-- SECTION 3 ==> WORKS -->
+
+      <section class="section works" id="works">
+        <div class="section-fade">
+          <h2 class="section-title">Projetos</h2>
+          <div class="section-cards section-content">
+            <article class="section-card works-card">
+              <div class="section-card__image">
+                <img src="./assets/tea-project.png" alt="" />
+              </div>
+              <h3>Tea Station</h3>
+              <a href="#" class="project-overlay" id="projectTea">Ver mais</a>
+            </article>
+            <article class="section-card works-card">
+              <div class="section-card__image">
+                <img src="./assets/guees-a-number.png" alt="" />
+              </div>
+              <h3>Descubra o Número</h3>
+              <a href="#" class="project-overlay" id="projectGuess">Ver mais</a>
+            </article>
+            <article class="section-card works-card">
+              <div class="section-card__image">
+                <img src="./assets/dice-game.png" alt="" />
+              </div>
+              <h3>Jogo do Dado</h3>
+              <a href="#" class="project-overlay" id="projectDice">Ver mais</a>
+            </article>
+            <article class="section-card works-card">
+              <div class="section-card__image">
+                <img src="./assets/simple-calculator.png" alt="" />
+              </div>
+              <h3>Calculadora</h3>
+              <a href="#" class="project-overlay" id="projectCalc">Ver mais</a>
+            </article>
+            <article class="section-card works-card">
+              <div class="section-card__image">
+                <img src="./assets/soon.jpg" alt="" />
+              </div>
+              <h3>Em Breve</h3>
+              <a href="#" class="project-overlay" id="projectSoon">Ver mais</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- END OF SECTION 3 -->
+      <!-- SECTION 4 ==> CONTACT -->
+
+      <section class="section contact" id="contact">
+        <div class="section-fade">
+          <h2 class="section-title">Contato</h2>
+          <div class="section-cards section-content">
+            <article class="section-card contact-card">
+              <a href="mailto:gabrielkt.dev@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+              <a href="mailto:gabrielkt.dev@gmail.com" target="_blank"
+                ><h3>E-mail</h3></a
+              >
+              <a href="mailto:gabrielkt.dev@gmail.com" target="_blank"
+                ><p>gabrielkt.dev@gmail.com</p></a
+              >
+            </article>
+            <article class="section-card contact-card">
+              <a href="https://api.whatsapp.com/send?phone=5545991292790"
+                ><i class="fa-solid fa-phone"></i
+              ></a>
+              <a href="https://api.whatsapp.com/send?phone=5545991292790"
+                ><h3>Telefone</h3></a
+              >
+              <a href="https://api.whatsapp.com/send?phone=5545991292790"
+                ><p>(45) 99129-2790</p></a
+              >
+            </article>
+            <article class="section-card contact-card">
+              <a
+                href="https://www.linkedin.com/in/gabriel-kunst/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/gabriel-kunst/"
+                target="_blank"
+                ><h3>LinkedIn</h3></a
+              >
+              <a
+                href="https://www.linkedin.com/in/gabriel-kunst/"
+                target="_blank"
+                ><p>Gabriel Kunst</p></a
+              >
+            </article>
+            <article class="section-card contact-card">
+              <a href="https://github.com/gabrielkunst" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://github.com/gabrielkunst" target="_blank"
+                ><h3>GitHub</h3></a
+              >
+              <a href="https://github.com/gabrielkunst" target="_blank"
+                ><p>gabrielkunst</p></a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="overlay hidden" id="overlayskillHTML">
+      <i class="fa-solid fa-xmark overlay-close"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">HTML</h1>
+          <p class="overlay-description">
+            HTML (HyperText Markup Language) é uma linguagem de marcação
+            utilizada para criar páginas web. É uma linguagem de marcação
+            simples que permite aos desenvolvedores criar documentos
+            estruturados que podem ser exibidos em um navegador web. Os
+            elementos HTML são marcados com tags (como &#60;p&#62; para
+            parágrafos e &#60;h1&#62; para títulos) e podem incluir texto,
+            imagens, links e outros recursos multimedia. O HTML permite que os
+            desenvolvedores criem páginas web estruturadas e interativas que
+            podem ser acessadas em qualquer lugar do mundo através da internet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay hidden" id="overlayskillCSS">
+      <i class="fa-solid fa-xmark overlay-close"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">CSS</h1>
+          <p class="overlay-description">
+            CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada
+            para descrever a apresentação de documentos HTML e XML. Com o CSS,
+            você pode controlar a cor, fontes, tamanho, espaçamento,
+            posicionamento e muito mais de elementos em uma página web. Ele
+            permite separar a estrutura de conteúdo de uma página da forma como
+            ela é apresentada, o que facilita a manutenção e a atualização do
+            site.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay hidden" id="overlayskillJS">
+      <i class="fa-solid fa-xmark overlay-close"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">JS</h1>
+          <p class="overlay-description">
+            JavaScript (JS) é uma linguagem de programação de alto nível e
+            interpretada, amplamente utilizada para desenvolvimento de
+            aplicações web. É usada para adicionar interatividade e outras
+            funcionalidades dinâmicas a páginas web, e é compatível com a
+            maioria dos navegadores modernos. Além de aplicações web, o
+            JavaScript também pode ser usado em aplicações de servidor,
+            aplicativos de desktop e móveis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="overlay hidden" id="overlayprojectTea">
+      <i class="fa-solid fa-xmark overlay-close-projects"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">Tea Station</h1>
+          <p class="overlay-description">
+            "Tea Station" é um projeto que apresenta uma empresa de chá de forma
+            atrativa e dinâmica. Foram utilizadas as tecnologias HTML, CSS e
+            JavaScript, garantindo a construção de uma página completa e
+            funcional. O HTML proporciona a estruturação do conteúdo do site,
+            enquanto o CSS permite a aplicação de estilos e a customização de
+            elementos visuais. Já o JavaScript traz interatividade e dinamismo à
+            página, tornando a navegação mais agradável e enriquecedora para o
+            usuário.
+          </p>
+          <a href="https://tea-project-upload.netlify.app/" target="_blank"
+            >Ver projeto</a
+          >
+          <a
+            href="https://github.com/gabrielkunst/myProjects/tree/main/tea-project"
+            target="_blank"
+            >Ver código</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="overlay hidden" id="overlayprojectGuess">
+      <i class="fa-solid fa-xmark overlay-close-projects"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">Descubra o Número</h1>
+          <p class="overlay-description">
+            "Guess the Number" é um jogo simples que se baseia no usuário
+            acertar um número aleatório gerado pela aplicação. O HTML
+            proporciona a estruturação do conteúdo do site, enquanto o CSS
+            permite a aplicação de estilos e a customização de elementos
+            visuais. Já o JavaScript traz interatividade e dinamismo à página,
+            tornando a navegação mais agradável e enriquecedora para o usuário.
+          </p>
+          <a href="https://guess-the-number-upload.netlify.app/" target="_blank"
+            >Ver projeto</a
+          >
+          <a
+            href="https://github.com/gabrielkunst/myProjects/tree/main/guess-the-number"
+            target="_blank"
+            >Ver código</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="overlay hidden" id="overlayprojectDice">
+      <i class="fa-solid fa-xmark overlay-close-projects"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">Jogo do Dado</h1>
+          <p class="overlay-description">
+            "Dice Game" é um jogo simples que vence o usuário que chega primeiro
+            aos 100 pontos, porém apresenta certas regras como: caso o usuário
+            jogue o número 1, seus pontos são resetados entre outras
+            funcionalidades. O HTML proporciona a estruturação do conteúdo do
+            site, enquanto o CSS permite a aplicação de estilos e a customização
+            de elementos visuais. Já o JavaScript traz interatividade e
+            dinamismo à página, tornando a navegação mais agradável e
+            enriquecedora para o usuário.
+          </p>
+          <a href="https://dice-game-upload.netlify.app/" target="_blank"
+            >Ver projeto</a
+          >
+          <a
+            href="https://github.com/gabrielkunst/myProjects/tree/main/roll-the-dice"
+            target="_blank"
+            >Ver código</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="overlay hidden" id="overlayprojectCalc">
+      <i class="fa-solid fa-xmark overlay-close-projects"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">Calculadora</h1>
+          <p class="overlay-description">
+            "Simple Calculator" é uma calculadora simples que apresenta apenas
+            as funcionalidades essenciais de uma calculadora padrão. O HTML
+            proporciona a estruturação do conteúdo do site, enquanto o CSS
+            permite a aplicação de estilos e a customização de elementos
+            visuais. Já o JavaScript traz interatividade e dinamismo à página,
+            tornando a navegação mais agradável e enriquecedora para o usuário.
+          </p>
+          <a
+            href="https://calculator-simple-project.netlify.app/"
+            target="_blank"
+            >Ver projeto</a
+          >
+          <a
+            href="https://github.com/gabrielkunst/myProjects/tree/main/simple-calculator"
+            target="_blank"
+            >Ver código</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="overlay hidden" id="overlayprojectSoon">
+      <i class="fa-solid fa-xmark overlay-close-projects"></i>
+      <div class="overlay-content">
+        <div class="overlay-text">
+          <h1 class="overlay-title">Em Breve...</h1>
+          <p class="overlay-description">
+            Projetos em andamento são marcados como "Em Breve...", ou seja,
+            ainda estão em produção. Volte mais tarde para ver se já está
+            disponível!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/e7fc9f162e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
